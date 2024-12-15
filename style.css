@@ -77,3 +77,22 @@ body {
   color:#000000;
   font-size:48px;
 }
+
+.Button3 {
+  background-color: #FFB2D0;
+  padding: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px;
+
+  font-family: Verdana, sans-serif;
+  color:#000000;
+  font-size:24px;
+}
+
+.StoryText1 {
+  font-family: Verdana, sans-serif;
+  color:#000000;
+  font-size:24px;
+}
