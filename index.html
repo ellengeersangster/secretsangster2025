@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-      My Website
+      Buxton is Strange
     </title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -15,27 +15,47 @@
           to {opacity: 1}
         }
 
-        .fadeInAnimated {
+        .FadeInTitle {
           opacity: 0;
           animation: fadeIn 2s forwards;
+
+          font-family:'Brush Script MT', cursive;
+          color:#000000;
+          font-size:32px;
+          display: inline;
         }
 
         #s0 {animation-delay: 0s;}
-
         #s2 {animation-delay: 2s;}
-
         #s4 {animation-delay: 4s;}
-
         #s6 {animation-delay: 6s;}
+        #s10 {animation-delay: 10s;}
+
+        .FadeInButton {
+          opacity: 0;
+          animation: fadeIn 2s forwards;
+
+          background-color: #FFB2D0;
+          padding: 10px;
+          border-radius: 5px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          margin:10px;
+        
+          font-family:'Brush Script MT', cursive;
+          color:#000000;
+          font-size:32px;
+        }
+        
     </style>
   </head>
-  <body style="background-color:powderblue;">
-    <b><p id="s0" class="fadeInAnimated" style="font-family:'Brush Script MT',cursive;color:black;font-size:32px;display: inline">Buxton </p></b>
-    <b><p id="s2" class="fadeInAnimated" style="font-family:'Brush Script MT',cursive;color:black;font-size:32px;display: inline">is </p></b>
-    <b><p id="s4" class="fadeInAnimated" style="font-family:'Brush Script MT',cursive;color:black;font-size:32px;display: inline">strange... </p></b>
-    <br>
-    <img id = "s6" class="fadeInAnimated" src="p1.jpg">
-    <br>
-    <button type="button">Play</button>
+  <body style="background-color:#B0E0E6;">
+    <b><p id="s0" class="FadeInTitle">Buxton </p></b>
+    <b><p id="s2" class="FadeInTitle">is </p></b>
+    <b><p id="s4" class="FadeInTitle">strange... </p></b>
+    <br><br>
+    <img width="100px" height="auto" id="s6" class="FadeInTitle" src="p1.jpg">
+    <br><br>
+    <button id="s10" class="FadeInButton" onclick="window.location.href = 'MainMenu.html';">Play</button>
   </body>
 </html>
