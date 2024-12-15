@@ -1,0 +1,66 @@
+body {
+  background-color:#B0E0E6;
+  border: 25px solid #B0E0E6;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.FadeInTitle1 {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+
+  font-family:'Brush Script MT', cursive;
+  color:#000000;
+  font-size:64px;
+  display: inline;
+}
+
+#s0 {animation-delay: 0s;}
+#s2 {animation-delay: 2s;}
+#s4 {animation-delay: 4s;}
+#s6 {animation-delay: 6s;}
+#s10 {animation-delay: 10s;}
+
+.FadeInButton1 {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+
+  background-color: #FFB2D0;
+  padding: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px;
+
+  font-family:'Brush Script MT', cursive;
+  color:#000000;
+  font-size:48px;
+}
+
+.Title1 {
+  font-family:'Brush Script MT', cursive;
+  color:#000000;
+  font-size:64px;
+}
+
+.Title2 {
+  font-family:'Brush Script MT', cursive;
+  color:#000000;
+  font-size:32px;
+}
+
+.Button1 {
+  background-color: #FFB2D0;
+  padding: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px;
+
+  font-family:'Brush Script MT', cursive;
+  color:#000000;
+  font-size:48px;
+}
