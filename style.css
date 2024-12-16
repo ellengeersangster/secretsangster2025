@@ -92,6 +92,9 @@ body {
 }
 
 .StoryText1 {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  
   font-family: Verdana, sans-serif;
   color:#000000;
   font-size:24px;
